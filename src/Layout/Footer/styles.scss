@@ -1,0 +1,19 @@
+.footer {
+  min-height: $footer-pc-height;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 240px 0;
+  border-top: 1px solid #e6ebf1;
+  justify-content: space-between;
+  width: 100%;
+  background: #ecf3fe;
+
+  @media (max-width: $content-max-width) {
+    padding: 50px 40px 0;
+  }
+
+  @media (max-width: $content-tablet-width) {
+    padding: 14px 20px 0;
+    min-height: $footer-mobile-height;
+  }
+}

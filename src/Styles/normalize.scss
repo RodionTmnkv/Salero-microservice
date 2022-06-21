@@ -1,0 +1,97 @@
+.ant-btn {
+  height: 56px;
+  max-width: 207px;
+  min-width: 207px;
+  background: $purple;
+  font-weight: 500;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    color: $purple;
+    border: 1px solid $purple;
+  }
+}
+
+.ant-btn[disabled],
+.ant-btn[disabled]:hover,
+.ant-btn[disabled]:focus,
+.ant-btn[disabled]:active {
+  color: $white;
+  background: $purple;
+  font-weight: 500;
+}
+
+.ant-select {
+  margin-bottom: 10px;
+}
+
+.ant-input,
+.ant-select-selector {
+  font-size: 16px !important;
+  border: none !important;
+  height: 56px !important;
+  background-color: transparent !important;
+
+  @media (max-width: $content-tablet-width) {
+    font-size: 12px !important;
+    height: 48px !important;
+  }
+}
+
+.ant-select-selection-search-input {
+  height: 100% !important;
+}
+
+.ant-select-selection-item,
+.ant-select-selection-search-input,
+.ant-select-selection-placeholder {
+  line-height: 56px !important;
+
+  @media (max-width: $content-tablet-width) {
+    line-height: 48px !important;
+  }
+}
+
+.ant-input-prefix {
+  margin-right: 12px;
+}
+
+.ant-input-affix-wrapper {
+  font-size: 20px;
+  border: none;
+  padding: 0 11px;
+
+  &:focus,
+  &:hover,
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.ant-select-selector,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+}
+
+.ant-menu-title-content {
+  color: $gray;
+  font-weight: bold;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: $blue-light;
+}
+
+.ant-input:placeholder-shown {
+  background: $white !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  background: $white !important;
+}

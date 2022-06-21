@@ -1,0 +1,14 @@
+.modal-body {
+  display: grid;
+  row-gap: 24px;
+
+    .modal-body-title {
+      white-space: nowrap;
+    }
+
+    .modal-body-buttons {
+      display: grid;
+      justify-content: flex-end;
+      column-gap: 12px;
+    }
+}

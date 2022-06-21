@@ -1,0 +1,48 @@
+.text {
+  font-size: 14px;
+  margin: 0;
+
+  // COLORS
+  &.black {
+    color: $gray;
+  }
+
+  &.blue {
+    color: $blue;
+  }
+
+  &.gray {
+    color: $gray-light;
+  }
+
+  &.white {
+    opacity: 1;
+    color: $white;
+  }
+
+  // FONT-WEIGHT
+  &.normal {
+    font-weight: 400;
+  }
+
+  &.bold {
+    font-weight: 700;
+  }
+
+  &.medium {
+    font-weight: 500;
+  }
+
+  // ALIGN
+  &.left {
+    text-align: left;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
