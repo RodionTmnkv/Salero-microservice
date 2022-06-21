@@ -15,8 +15,8 @@ const plugins = () => {
   const base = [];
 
   let api_host = '';
-  if (isProdMode) api_host = "'https://api.alerts.salero.io'";
-  if (isDevMode) api_host = "'https://api.alerts.salero.io'";
+  if (isProdMode) api_host = "'https://RodionTmnkv.github.io/Salero-microservice/'";
+  if (isDevMode) api_host = "'https://RodionTmnkv.github.io/Salero-microservice/'";
 
   base.push(
     new webpack.DefinePlugin({
